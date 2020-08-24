@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.parent {
+   margin: 30px auto;
+}
+
+.my-btn {
+    padding: 10px;
+    margin: 10px;
+    background-color: powderblue;
+    margin: 0 auto;
+    display: flex;
+}
+
+#game {
+    height: 600px;
+    width: 400px;
+    border: 1px solid black;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: lightyellow;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+#modak {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    animation: fallingmodak 2s infinite;
+    left: 0;
+}
+
+#ganpati {
+    height: 100px;
+    width: 100px;
+    top: 400px;
+    left: 100px;
+    position: relative;
+}
+
+.center-el {
+    text-align: center;
+}
+
+@keyframes fallingmodak {
+    0%{top:0;}
+    100%{top:600px;}
+}
+
+#right, #left {
+   height: 100%;
+   width: 50%;
+   position: absolute;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+
+}
+
+#score {
+    font-size: 50px;
+}
+
+#rat2 {
+   right: 0;
+}
+
+#right {
+   right: 0;
+}
+
+#left {
+  left: 0;
+}
